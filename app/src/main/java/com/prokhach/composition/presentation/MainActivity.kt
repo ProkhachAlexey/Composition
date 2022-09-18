@@ -1,8 +1,7 @@
 package com.prokhach.composition.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.prokhach.composition.R
+import androidx.appcompat.app.AppCompatActivity
 import com.prokhach.composition.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
