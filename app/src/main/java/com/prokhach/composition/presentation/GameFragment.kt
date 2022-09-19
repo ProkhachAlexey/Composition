@@ -28,7 +28,7 @@ class GameFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentGameBinding.inflate(inflater,container,false)
+        _binding = FragmentGameBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -37,11 +37,11 @@ class GameFragment : Fragment() {
         binding.tvSum.setOnClickListener {
             launchGameFinishedFragment(
                 GameResult(
-                true,
-                0,
-                0,
-                GameSettings(0,0,0,0)
-            )
+                    true,
+                    0,
+                    0,
+                    GameSettings(0, 0, 0, 0)
+                )
             )
         }
     }
